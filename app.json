@@ -1,6 +1,7 @@
 {
   "name": "Superthon",
   "description": "Superthon",
+  "logo": "https://telegra.ph/file/b81fe3118d5a1f987e6e2.jpg",
   "env": {
     "API_ID": {
       "description": "ايبي ايدي",
