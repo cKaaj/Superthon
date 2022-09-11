@@ -1,0 +1,29 @@
+{
+  "name": "Superthon",
+  "description": "Superthon",
+  "env": {
+    "API_ID": {
+      "description": "ايبي ايدي",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "الايبي هاش",
+      "value": ""
+    },
+    "TZ": {
+      "description": "الوقت",
+      "value": "Asia/Baghdad"
+    },
+    "STRING_SESSION": {
+      "description": "كود تيرمكس",
+      "value": ""
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{"url": "heroku/python"}]
+}
